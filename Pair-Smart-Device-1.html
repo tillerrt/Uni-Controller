@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pair Smart Device</title>
+    </head>
+    <body>
+        <h1>Pair Smart Device</h1>
+       <input type = "text"         placeholder = "Smart Device Name:">              <br>
+       <input type = "text"         placeholder = "Smart Device Password:">          <br>
+       <input type = "password"     placeholder = "Password:">                       <br>
+       <input type = "button"       value       = "Register" onClick="location.href='thank-you-for-registering.html'"><br>     
+       <h2>Devices Paired</h2>
+       <div>Click on all the smart devices you own & would like to pair:</div>
+       <input type="checkbox"><label>Smart Enabled Garage Door</label><br>
+       <input type="checkbox"><label>Smart Enabled Television</label><br>
+       <input type="checkbox"><label>Smart Enabled Vehicle</label><br>
+       <input type="checkbox"><label>Smart In-Home Thermostat</label><br>
+       <input type="checkbox"><label>Smart Enabled Home - Front & Back Door Locks</label><br>
+       <input type="checkbox"><label>Other: </label><input type="text" placeholder="Specify:"><br>
+       <br>
+       <h2>Smart Enabled Garage Door Name:</h2>
+       <input type="radio" name="Smart Enabled Garage Door Name:"><label>Chamberlain MYQ Opener</label><br>
+       <input type="radio" name="Smart Enabled Garage Door Name:"><label>GoControl GD00z-4 w/ Samsung SmartThings</label><br>
+       <input type="radio" name="Smart Enabled Garage Door Name:"><label>MyQ Garage Opener</label><br>
+       <input type="radio" name="Smart Enabled Garage Door Name:"><label>GarageGate</label><br>
+       <h2>Smart Enabled Garage Door Name: (alternative)</h2>
+       <select>
+           <option>Chamberlain MYQ Opener</option>
+           <option>GoControl GD00z-4 w/ Samsung SmartThings</option>
+           <option>MyQ Garage Opener</option>
+           <option>GarageGate</option>
+       </select><br><br>
+       <h2>Information about a smart-enabled device not listed above:</h3>
+       <div>Tell us about your smart-enabled device you would like to pair with your Uni-Controller:</div>
+       <textarea rows=5 cols=50></textarea><br><br> 
+       <h2>Upload a picture</h2>
+       <input type="file"><br><br>
+       <input type="text" placeholder="search"><br>
+       <table>
+       <tr>
+           <td><img src="Chamberlain MyQ.jpg" style="width:30%"></td> 
+           <td><img src="GarageGate.jpg" style="width:30%"></td> 
+           <td><img src="GoControl.jpg" style="width:20%"></td> 
+           <td><img src="MyQ.jpg" style="width:100%"></td>
+        </tr>
+        <tr>
+            <td> Chamberlain <input type="button" value="Add"></td>
+            <td> GarageGate  <input type="button" value="Add"></td>
+            <td> GoControl   <input type="button" value="Add"></td>
+            <td> MyQ         <input type="button" value="Add"></td>
+        </tr>          
+       </table>         
+       <a href="index.html">HOME</a>
+    </body>
+</html>
