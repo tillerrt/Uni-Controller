@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-[Pair Smart Device](Pair-Smart-Device.html)
+[Pair Smart Device](Pair-Smart-Devices.html)
 
 [Delete A Virtual Controller](delete-a-virtual-controller.html)
 
